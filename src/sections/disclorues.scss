@@ -1,0 +1,4 @@
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #f0f0f0;
+}

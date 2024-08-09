@@ -1,0 +1,23 @@
+@use "../base/variable.scss" as *;
+.updates-container{
+    background-color: $clr-abc;
+    h2 {
+        font-size: 32px;
+        color: #fff;
+        padding-bottom: 15px;
+        display: flex;
+    }
+    span {
+        color: #fff;
+        display: flex;
+    }
+    padding: 56px;
+    .abc {
+        padding-top: 20px;
+
+        button{
+            display: flex;
+            border-radius: 20px;
+        }
+    }
+}

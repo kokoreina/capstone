@@ -1,0 +1,14 @@
+@use "../base/variable.scss" as *;
+.button-text{
+    display: flex;
+    position: absolute;
+    border-radius: 2rem;
+    border: 1px solid $clr-primary;
+    background-color: $clr-primary;
+    content: "";
+    padding: 10px;
+    color:white;
+}
+.buttons {
+    padding: 20px;
+}

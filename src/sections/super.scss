@@ -1,0 +1,32 @@
+img {
+    width: 100%;
+    height: auto;
+}
+.super-text {
+    h2 {
+        font-size: 36px;
+        text-align: center;
+        padding: 56px;
+
+    }
+}
+.super-card {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.card {
+    h2 {
+        font-size: 28px;
+        line-height: 25px;
+    }
+    span {
+        color:rgb(13, 0, 0);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        line-height: 50px;
+    }
+}

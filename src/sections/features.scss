@@ -1,0 +1,53 @@
+@use "../base/variable.scss" as *;
+.features-container{
+    width: 100%;
+}
+.features-text {
+    background-color: #00142d ;
+     h2{
+        color: white;
+        font-size: 42px;
+        padding: 15px;
+        display: flex;
+     }
+     span {
+        color: white;
+        padding: 1rem;
+        display: flex;
+     }
+     padding: 56px;
+     max-width: 1440px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+    //  gap: 20px;
+}
+.features-card {
+    background-color: $clr-abc;
+    display: flex;
+    justify-content: center;
+}
+.features-card-img {
+   img {
+    width: 70%;
+    height: 60%;
+    display: flex;
+   }
+   h3 {
+    color: #F4F4F4;
+    display: flex;
+    
+   }
+   span {
+    color: #F4F4F4;
+    display: flex;
+    padding-bottom: 20px;
+   }
+   margin-left: 80px;
+   padding-left: 80px;
+
+}
+img {
+    width: 100%;
+    height: auto;
+}

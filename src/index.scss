@@ -1,0 +1,12 @@
+//base
+@use "./base/config.scss";
+@use "./base/reset.scss";
+//components
+@use "./components/button.scss";
+@use "./components/card.scss";
+// sections
+@use "./sections//features.scss";
+@use "./sections/super.scss";
+@use "./sections/updates.scss";
+@use "./sections/disclorues.scss";
+@use "./sections/footer.scss";
